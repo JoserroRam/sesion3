@@ -1,7 +1,3 @@
-body{
-    background-color: bisque;
-}
-
 .container-header{
     width: 100%;
     height: 200px;
@@ -25,4 +21,18 @@ body{
     width: 30%;
     height: 200px;
     background-color: aqua;
+}
+
+.promoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promoContainer h1{
+    color: #025157;
+}
+
+.promoContainer p{
+    color: #025157;
 }
